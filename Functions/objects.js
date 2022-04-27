@@ -38,3 +38,10 @@ var bg = menu.backgroundColor;
 //Palavra-chave this -- this irá fazer uma referencia ao próprio objeto.
 // Protótipo e Herança -- O objeto herda propriedades e métodos do objeto que foi utilizado para criar o mesmo.
 
+var pessoa = {
+    nome: Nicolas,
+    idade:26,
+    motivo: 'Talvez essa variavel seja meio q inutil'
+};
+
+console.log(motivo);
